@@ -350,7 +350,7 @@ def phase_ui_common(phase_num, ground_truth_df):
             st.info("Confusion matrix image not available.")
 
     with tab_cdf:
-        scores_path = f"./user_{user_number:03d}/user_{user_number:03d}_anomaly_scores.csv"
+        scores_path = f"./user_{user_number:03d}/user_{user_number:03d}_cdf_curve.png"
         if os.path.exists(scores_path):
             try:
                 df_scores = pd.read_csv(scores_path)
