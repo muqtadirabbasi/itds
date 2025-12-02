@@ -1,5 +1,6 @@
-streamlit
+streamlit==1.51.0
 matplotlib
 pandas
 numpy
-sqlite3-binary
+reportlab
+Pillow
