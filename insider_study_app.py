@@ -363,7 +363,7 @@ def phase_ui_common(phase_num, ground_truth_df):
     with tab_raw:  # assuming raw_data = st.tab("Raw Data") defined somewhere in your tab setup
         #st.header("📊 Raw Data Viewer")
 
-        log_file_path = 'Output2000.log'
+        log_file_path = 'Output2000'
 
         # Read log file
         try:
