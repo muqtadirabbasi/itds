@@ -412,7 +412,7 @@ def phase_ui_common(phase_num, ground_truth_df, dict_df):
             st.info("CDF curve not available.")
     
     with tab_raw:
-        log_file_path = '/work/Output2000.log'
+        log_file_path = 'Output2000.log'
         try:
             with open(log_file_path, 'r') as f:
                 log_content = f.read()
