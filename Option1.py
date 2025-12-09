@@ -385,7 +385,7 @@ def phase_ui_common(phase_num, ground_truth_df, dict_df):
     # Raw Logs
     with st.expander("View Raw Log Data (Click to Expand)"):
         #log_file_path = 'Output2000.log'
-        log_file_path = 'Output2000.txt'
+        log_file_path = 'Output2000'
         try:
             with open(log_file_path, 'r') as f:
                 log_content = f.read()
