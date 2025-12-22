@@ -465,7 +465,7 @@ def phase_ui_common(phase_num, ground_truth_df, dict_df):
 
     # Output DATA (log-based, by user_number)
     with st.expander("View Output Data (Click to Expand)"):
-        log_file_path = 'Output2000.log'
+        log_file_path = 'Output2000'
         try:
             with open(log_file_path, 'r') as f:
                 log_content = f.read()
