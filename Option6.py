@@ -503,7 +503,7 @@ def phase_ui_common(phase_num: int, dict_df: pd.DataFrame):
     st.markdown("**1. Model Output (Behavioral Deviation)**")
     
     with st.expander("View Model Output Logs", expanded=True):
-        log_file_path = "Output2000"
+        log_file_path = "Output2000.log"
         try:
             with open(log_file_path, "r") as f:
                 log_content = f.read()
